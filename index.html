@@ -1,1 +1,20 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css"/>
+</head>
+<body>
+</body>
+</html>
+<script>
+    $('body').terminal({
+        ndfile: function(what) {
+            this.echo('ACCESSING DATABASE... WELCOME USER ' + what +
+                      ' BEGIN LOG... ATOMIC AUTOMAT, NEON DISTRICT BRANCH IS CURRENTLY UNDER SURVEILLANCE BY [REDACTED]. FROM RECENT EVENTS, THE NEON DISTRICT ATOMIC AUTOMAT BRANCH MAY GO UNDER TEMPORARY CHANGES. THE PAY OF SPECIFICALLY THE EMPLOYEE RANK IS TO BE CHANGED TO FIVE E-CASH. NO OTHER PAY CHANGES MADE.');
+        }
+    }, {
+        greetings: 'WELCOME TO [ZAIBATSU AUTOFOODS CO] EMPLOYEE PANEL. (When doing a command, input your username.)'
+    });
+</script>
